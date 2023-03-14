@@ -80,3 +80,68 @@
   text-align: center;
 }
 
+.hero-image {
+  background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1245,c_limit/95201863-3096-4663-b39b-e2541b434ea1/nike-offizielle-website.pngphotographer.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  color: black;
+}
+
+nav ul {
+  /* margin: auto; */
+  padding: auto;
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+nav .navigationwithsearchform {
+  /* margin: auto;
+  padding: auto; */
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  gap: 1em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* ul li a img {
+  max-height: 40px;
+} */
+
+.navicon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.navicon2 {
+  height: 1.5em;
+  width: 1.5em;
+}
+.topnavigation {
+  padding-left: 1em;
+  padding-right: 1em;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.topnavlist {
+  display: flex;
+  gap: 1em;
+}
