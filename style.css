@@ -6,6 +6,59 @@
   padding: 0;
 }
 
+.shoe-carousel {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 1rem 0;
+  position: relative;
+}
+
+.shoe-carousel__img {
+  width: 100%;
+}
+
+.shoe-carousel__btn {
+  border: none;
+  border-radius: 50rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  height: 2rem;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  /* padding: 1.5rem; */
+  width: 2rem;
+}
+
+.shoe-carousel__btn--right {
+  right: 4rem;
+}
+
+.shoe-carousel__btn--left {
+  left: 4rem;
+}
+
+.shoe-carousel__counter {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  color: #fff;
+  font-size: 1.2rem;
+  left: 55%;
+  padding: 0.5rem 0.75rem;
+  position: absolute;
+  top: 3rem;
+  transform: translateX(-50%);
+}
+
+.shoe-carousel__description {
+  bottom: -1rem;
+  color: #111;
+  left: 44%;
+  position: absolute;
+  transform: translateX(-50%);
+}
 
 .video {
   width: 100dvw;
