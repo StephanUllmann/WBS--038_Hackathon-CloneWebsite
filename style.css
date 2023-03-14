@@ -6,6 +6,7 @@
   padding: 0;
 }
 
+
 .video {
   width: 100dvw;
 }
@@ -13,3 +14,16 @@
   display: block;
   width: 100%;
 }
+
+.banner {
+  height: auto;
+  min-height: 58px;
+  box-shadow: inset 0 -1px 0 0 #e5e5e5;
+  position: relative;
+  background: #f5f5f5;
+  padding-top: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
+
