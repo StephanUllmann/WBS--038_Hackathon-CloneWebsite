@@ -146,6 +146,47 @@ body {
   white-space: nowrap;
   text-align: center;
 }
+.everythingMax {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  margin: 1 em;
+  text-align: center;
+}
+.em-h3 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+}
+.emax-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.everythingMaxBuy-btn {
+  padding: 6px 20px;
+  border-radius: 20px;
+  border: 1.5px solid transparent;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  color: #fff;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  transition: background-color ls;
+}
+.everythingMaxBuy-btn:hover {
+  background-color: lightgray;
+}
+.everythingMaxBuy-btn:active 
+.everythingMaxBuy-btn:focus
+{
+  background-color: #111;
+}
 
 .hero-image {
   background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1245,c_limit/95201863-3096-4663-b39b-e2541b434ea1/nike-offizielle-website.pngphotographer.jpg");
