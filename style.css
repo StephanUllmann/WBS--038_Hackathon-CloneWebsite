@@ -157,7 +157,7 @@ body {
   font-weight: 500;
   font-size: 48px;
   line-height: 48px;
-  font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
 .emax-btn {
@@ -174,7 +174,7 @@ body {
   align-items: center;
   background-color: #111;
   color: #fff;
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   transition: background-color ls;
@@ -182,9 +182,7 @@ body {
 .everythingMaxBuy-btn:hover {
   background-color: lightgray;
 }
-.everythingMaxBuy-btn:active 
-.everythingMaxBuy-btn:focus
-{
+.everythingMaxBuy-btn:active .everythingMaxBuy-btn:focus {
   background-color: #111;
 }
 
@@ -246,19 +244,16 @@ a {
   padding-right: 1em;
   display: flex;
   justify-content: space-between;
-  
 }
 
 .topnavlist {
   display: flex;
   gap: 1em;
 }
-=======
 
 /*footer*/
 
-.nav-footer-container{
-
+.nav-footer-container {
   background: #111;
   height: 350px;
   width: 100%;
@@ -267,7 +262,7 @@ a {
   box-sizing: inherit;
 }
 
-.footer-body{
+.footer-body {
   display: flex;
   flex-direction: row;
   border: #111;
@@ -286,7 +281,7 @@ a {
   text-decoration: none;
 }
 
-.footer-option{
+.footer-option {
   margin-bottom: 10px;
   font-size: 15px;
   width: 70%;
@@ -295,5 +290,4 @@ a {
   position: relative;
   padding-left: 5px;
   padding-right: 5px;
-
 }
